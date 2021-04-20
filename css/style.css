@@ -1,0 +1,65 @@
+body {
+  background: #fff;
+  margin-top: 90px; }
+
+.navbar {
+  box-shadow: 3px 3px 5px #FA0657;
+  opacity: 0.9; }
+  .navbar h3 {
+    color: brown; }
+  .navbar h3:hover {
+    color: #FA0657; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+    .navbar .nav-item .nav-link {
+      color: brown; }
+    .navbar .nav-item .nav-link:hover {
+      color: #FA0657; }
+  .navbar .nav-item:last-child {
+    padding-right: 0px; }
+
+#home-section {
+  position: relative;
+  background: url(../Img/pexels-simon-migaj-747964.jpg);
+  min-height: 600px; }
+  #home-section .primary-overlay {
+    background: rgba(238, 14, 14, 0.4);
+    position: absolute;
+    min-height: 600px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#subs-section {
+  background: #252525; }
+  #subs-section .br-rd-rmv {
+    border-radius: 0; }
+  #subs-section .btn-red {
+    background: brown;
+    color: #fff; }
+  #subs-section .btn-red:hover {
+    background: #FA0657; }
+
+#authors-section .card {
+  background: rgba(241, 240, 241, 0.87); }
+  #authors-section .card img {
+    margin-top: -50px; }
+  #authors-section .card .fa {
+    font-size: 20px;
+    background: rgba(241, 240, 241, 0.87);
+    border-radius: 5px;
+    color: blue;
+    padding: 4px; }
+
+#authors-section .card:hover {
+  background: #FA0657;
+  color: whitesmoke; }
+  #authors-section .card:hover .fa {
+    background: #FA0657;
+    color: #fff; }
+
+@media (max-width: 576px) {
+  #home-section h1 {
+    font-size: 4.0rem; } }
